@@ -1,7 +1,6 @@
 const country = document.getElementById("Countries");
 const aboutCountry = document.querySelector(".country-info")
-const regionList = document.querySelector('.form__select-list')
-const regions = document.querySelectorAll('.form__country-item')
+
 const updateUI = (data) => {
   const newData = data
   country.innerHTML = "";
@@ -45,6 +44,7 @@ function updateAboutUI(data){
     </div>
     `
 }
+
 
 
 
